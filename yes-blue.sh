@@ -8,5 +8,6 @@ read yes
 sudo pacman -S --needed bluez bluez-utils pulseaudio-bluetooth -y $yes
 echo "Enabling Bluetooth Service"
 sudo systemctl enable --now bluetooth
-echo "BLUETOOTH IS NOW ENABLE 🎧"
+echo "BLUETOOTH IS NOW ENABLE 🎧" 
+echo "REBOOT THE COMPUTER"
 exit
