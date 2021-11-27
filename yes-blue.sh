@@ -11,6 +11,7 @@ read yes
 #Install Bluetooth
 sudo pacman -S --needed bluez bluez-utils pulseaudio-bluetooth -y $yes
 #Enabling Bluetooth From SystemD
+echo "-------------------------------"
 echo "||Enabling Bluetooth Service||"
 echo "-------------------------------"
 sudo systemctl enable --now bluetooth
