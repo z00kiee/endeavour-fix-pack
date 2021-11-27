@@ -1,5 +1,6 @@
 #!/bin/bash
 echo ""
+echo "------------------------------------------------------------------------"
 echo "This script enable Bluetooth devices for EndeavourOS without the hassle"
 echo "------------------------------------------------------------------------"
 echo ""
