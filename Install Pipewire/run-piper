@@ -3,7 +3,7 @@
 echo "INSTALLING PIPEWIRE NOW!!!!!!?"
 
 #Deleting pulseaudio-alsa and pulseaudio-jack packages
-echo "deleting pulseaudio-alsa and pulseaudio-jack"
+echo "Deleting pulseaudio-alsa and pulseaudio-jack"
 sudo pacman -Rs pulseaudio-alsa
 sudo pacman -Rs pulseaudio-jack
 #Install Pipewire and enable it
