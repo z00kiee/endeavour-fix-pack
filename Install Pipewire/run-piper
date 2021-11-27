@@ -3,13 +3,17 @@ echo "INSTALLING PIPEWIRE NOW!!!!!!"
 echo ""
 #Deleting pulseaudio-alsa and pulseaudio-jack packages type yes to both packages
 echo "Deleting pulseaudio-alsa and pulseaudio-jack packages"
+echo "-------------------------------------------------------"
+echo "type yes to both packages"
 sudo pacman -Rs pulseaudio-jack
 sudo pacman -Rs pulseaudio-alsa
 #Install Pipewire and enable it
 echo "Install Pipewire"
+echo "------------------"
 sudo pacman -S --needed pipewire-pulse pipewire-alsa pipewire-jack pipewire-media-session lib32-pipewire lib32-pipewire-jack
 echo ""
 echo "||Enabling Bluetooth Service||"
+echo "--------------------------------"
 systemctl --user start pipewire-pulse.service
 systemctl --user --now enable pipewire-media-session.service
 echo ""
