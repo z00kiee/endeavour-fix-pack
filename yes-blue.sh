@@ -2,8 +2,9 @@
 echo ""
 echo "This script enable Bluetooth devices for EndeavourOS without the hassle"
 echo ""
-echo "To enable Bluetooth devices TYPE: yes"
+echo "To enable Bluetooth devices"
 echo ""
+echo "TYPE: yes"
 read yes
 #Install Bluetooth
 sudo pacman -S --needed bluez bluez-utils pulseaudio-bluetooth -y $yes
