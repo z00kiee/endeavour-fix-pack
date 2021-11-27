@@ -7,6 +7,7 @@ echo "would you to enable bluetooth devices {Type y for yes]"
 read y
 #Install Bluetooth and enable it
 sudo pacman -S --needed bluez bluez-utils pulseaudio-bluetooth -y $y
+exit
 echo "Enabling Bluetooth Service"
 sudo systemctl enable --now bluetooth
 exit
