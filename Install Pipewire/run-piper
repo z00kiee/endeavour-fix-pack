@@ -12,7 +12,7 @@ sudo pacman -Rs pulseaudio-alsa
 #Install Pipewire and enable it
 echo "Install Pipewire"
 echo "------------------"
-sudo pacman -S --needed pipewire-pulse pipewire-alsa pipewire-jack pipewire-media-session lib32-pipewire lib32-pipewire-jack
+sudo pacman -S --needed pipewire pipewire-pulse pipewire-alsa pipewire-jack pipewire-media-session lib32-pipewire lib32-pipewire-jack
 echo ""
 echo "||Enabling Bluetooth Service||"
 echo "--------------------------------"
