@@ -1,4 +1,4 @@
 # endeavour-fix-pack [WIP]
 This script pack enable bluetooth devices and pipewire for endeavouros users without the hassle
 
-## I AM VERY NEW TO SCRIPTING
+## I'M VERY NEW TO SCRIPTING JUST GIVING YOU THE HEADUP
