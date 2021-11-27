@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "enable and install Pipewire?"
+echo "INSTALLING PIPEWIRE NOW!!!!!!?"
 
 #Deleting pulseaudio-alsa and pulseaudio-jack packages
 echo "deleting pulseaudio-alsa and pulseaudio-jack"
@@ -14,6 +14,4 @@ echo "||Enabling Bluetooth Service||"
 systemctl --user start pipewire-pulse.service
 echo ""
 echo "PIPEWIRE IS NOW ENABLE 🎧"
-echo ""
-echo "REBOOT YOUR COMPUTER"
 exit
