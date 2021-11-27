@@ -11,6 +11,7 @@ sudo pacman -S --needed pipewire-pulse pipewire-alsa pipewire-jack lib32-pipewir
 echo ""
 echo "||Enabling Bluetooth Service||"
 systemctl --user start pipewire-pulse.service
+systemctl --user --now enable pipewire-media-session.service
 echo ""
 echo "PIPEWIRE IS NOW ENABLE 🎧"
 exit
