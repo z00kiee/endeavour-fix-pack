@@ -1,5 +1,7 @@
 #!/bin/bash
+echo "------------------------------"
 echo "INSTALLING PIPEWIRE NOW!!!!!!"
+echo "------------------------------"
 echo ""
 #Deleting pulseaudio-alsa and pulseaudio-jack packages type yes to both packages
 echo "Deleting pulseaudio-alsa and pulseaudio-jack packages"
