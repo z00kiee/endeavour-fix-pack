@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#yes-blue
 echo "This script enable bluetooth devices for endeavouros without the hassle"
 
 echo "to enable bluetooth devices TYPE: yes"
