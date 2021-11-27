@@ -2,7 +2,7 @@
 
 echo "INSTALLING PIPEWIRE NOW!!!!!!"
 
-#Deleting pulseaudio-alsa and pulseaudio-jack packages
+#Deleting pulseaudio-alsa and pulseaudio-jack packages type yes to both packages
 echo "Deleting pulseaudio-alsa and pulseaudio-jack"
 sudo pacman -Rs pulseaudio-alsa
 sudo pacman -Rs pulseaudio-jack
