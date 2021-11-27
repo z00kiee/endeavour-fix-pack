@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "INSTALLING PIPEWIRE NOW!!!!!!?"
+echo "INSTALLING PIPEWIRE NOW!!!!!!"
 
 #Deleting pulseaudio-alsa and pulseaudio-jack packages
 echo "Deleting pulseaudio-alsa and pulseaudio-jack"
