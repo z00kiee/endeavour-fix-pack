@@ -6,7 +6,7 @@ echo ""
 #Deleting pulseaudio-alsa and pulseaudio-jack packages type yes to both packages
 echo "Deleting pulseaudio-alsa and pulseaudio-jack packages"
 echo "-------------------------------------------------------"
-echo "type yes to both packages"
+echo "type yes to both packages if one of the packages is failing to install"
 sudo pacman -Rs pulseaudio-jack
 sudo pacman -Rs pulseaudio-alsa
 #Install Pipewire and enable it
