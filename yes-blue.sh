@@ -15,4 +15,4 @@ echo "BLUETOOTH IS NOW ENABLE 🎧"
 echo ""
 echo "REBOOT THE COMPUTER"
 echo ""
-exit 0
+exit
