@@ -4,5 +4,5 @@ This script pack enable bluetooth devices and pipewire for endeavouros users wit
 ## Tutorial
 1. Download the zip:
 https://github.com/z00kiee/endeavour-fix-pack/archive/refs/heads/main.zip
-2. Extract the zip and ```cd Download/endeavour-fix-pack-main```/```cd Download/endeavour-fix-pack-main/Install Pipewire``` or "Open in Terminal" If your DE support it
+2. Extract the zip and ```cd Download/endeavour-fix-pack-main``` ```cd Download/endeavour-fix-pack-main/Install Pipewire``` or "Open in Terminal" If your DE support it
 3. And run ```bash yes-blue.sh``` to install Bluetooth or [Make sure you're on the Install Pipewire file] ```bash run-piper``` to install Pipewire
